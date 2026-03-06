@@ -1,0 +1,63 @@
+/* Main container */
+.container {
+  background-color: rgb(172, 11, 59);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  text-align: center;
+  max-width: 420px;
+  animation: fadeInUp 1s ease;
+
+}
+
+/* Logo */
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #57088b;
+  margin-bottom: 20px;
+}
+
+/* Welcome speech */
+.welcome {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #004d40;
+}
+
+.subtext {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.btm {
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-login {
+  background-color: #00796b;
+  color: #fff;
+}
+
+.btn-login:hover {
+  background-color: #eef8f89c;
+}
+
+.btn-register {
+  background-color: transparent;
+  border: 2px solid #010f0e;
+  color: #29746c;
+}
+
+.btn-register:hover {
+  background-color: #0d0233;
+  color: #bb1111;
+}
+
